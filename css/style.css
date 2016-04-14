@@ -169,12 +169,12 @@ a:link,a:visited,a:focus{
     -o-transform: translate3d(0, 20px, 0);
     transform: translate3d(0, 20px, 0);
 }
-.tooltip-effect-5 .tooltip-content{
-    -webkit-transform: scale3d(1, 0, 1);
-    -moz-transform: scale3d(1, 0, 1);
-    -ms-transform: scale3d(1, 0, 1);
-    -o-transform: scale3d(1, 0, 1);
-    transform: scale3d(1, 0, 1);
+.tooltip-effect-5 .tooltip-content i{
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
 }
 
 
@@ -187,3 +187,6 @@ a:link,a:visited,a:focus{
     -o-transform: translate3d(0,0,0) rotate3d(1,1,1,0deg) scale3d(1,1,1);
     transform: translate3d(0,0,0) rotate3d(1,1,1,0deg) scale3d(1,1,1);
 }
+
+
+
